@@ -1,0 +1,176 @@
+{
+    "appTitle": "Button Table App",
+    "buttonTable": [
+        {
+            "buttonName": "Indian Red 01",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Indian Red 01\")"
+                },
+                {
+                    "cmd02": "print(\"indian red\")"
+                }
+            ],
+            "buttonColour": "indian red"
+        },
+        {
+            "buttonName": "Blue 02",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Blue 02\")"
+                },
+                {
+                    "cmd02": "print(\"blue\")"
+                }
+            ],
+            "buttonColour": "blue"
+        },
+        {
+            "buttonName": "Print PATH variable",
+            "buttonCommand": [
+                {
+                    "cmd01": "print_path()"
+                },
+                {
+                    "cmd02": "print(\"Green 03\")"
+                },
+                {
+                    "cmd03": "print(\"green\")"
+                }
+            ],
+            "buttonColour": "green"
+        },
+        {
+            "buttonName": "Yellow 04",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Yellow 04\")"
+                },
+                {
+                    "cmd02": "print(\"yellow\")"
+                }
+            ],
+            "buttonColour": "yellow"
+        },
+        {
+            "buttonName": "Annoying Orange 05",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Annoying Orange 05\")"
+                },
+                {
+                    "cmd02": "print(\"orange\")"
+                }
+            ],
+            "buttonColour": "orange"
+        },
+        {
+            "buttonName": "Purple 06",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Purple 06\")"
+                },
+                {
+                    "cmd02": "print(\"purple\")"
+                }
+            ],
+            "buttonColour": "purple"
+        },
+        {
+            "buttonName": "Pink 07",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Pink 07\")"
+                },
+                {
+                    "cmd02": "print(\"pink\")"
+                }
+            ],
+            "buttonColour": "pink"
+        },
+        {
+            "buttonName": "Cyan 08",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Cyan 08\")"
+                },
+                {
+                    "cmd02": "print(\"cyan\")"
+                }
+            ],
+            "buttonColour": "cyan"
+        },
+        {
+            "buttonName": "Magenta 09",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Magenta 09\")"
+                },
+                {
+                    "cmd02": "print(\"magenta\")"
+                }
+            ],
+            "buttonColour": "magenta"
+        },
+        {
+            "buttonName": "White 10",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"White 10\")"
+                },
+                {
+                    "cmd02": "print(\"white\")"
+                }
+            ],
+            "buttonColour": "white"
+        },
+        {
+            "buttonName": "light cyan 11",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"light cyan 11\")"
+                },
+                {
+                    "cmd02": "print(\"light cyan\")"
+                }
+            ],
+            "buttonColour": "light cyan"
+        },
+        {
+            "buttonName": "turquoise 12",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"turquoise 12\")"
+                },
+                {
+                    "cmd02": "print(\"turquoise\")"
+                }
+            ],
+            "buttonColour": "turquoise"
+        },
+        {
+            "buttonName": "Azure 13",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Azure 03\")"
+                },
+                {
+                    "cmd02": "print(\"azure\")"
+                }
+            ],
+            "buttonColour": "azure"
+        },
+        {
+            "buttonName": "Exit",
+            "buttonCommand": [
+                {
+                    "cmd01": "print(\"Exiting\")"
+                },
+                {
+                    "cmd02": "exit(0)"
+                }
+            ],
+            "buttonColour": "red"
+        }
+    ]
+}
