@@ -125,10 +125,10 @@
             "buttonColour": "white"
         },
         {
-            "buttonName": "light cyan 11",
+            "buttonName": "Light cyan 11",
             "buttonCommand": [
                 {
-                    "cmd01": "print(\"light cyan 11\")"
+                    "cmd01": "print(\"Light cyan 11\")"
                 },
                 {
                     "cmd02": "print(\"light cyan\")"
@@ -137,10 +137,10 @@
             "buttonColour": "light cyan"
         },
         {
-            "buttonName": "turquoise 12",
+            "buttonName": "Turquoise 12",
             "buttonCommand": [
                 {
-                    "cmd01": "print(\"turquoise 12\")"
+                    "cmd01": "print(\"Turquoise 12\")"
                 },
                 {
                     "cmd02": "print(\"turquoise\")"
@@ -152,7 +152,7 @@
             "buttonName": "Azure 13",
             "buttonCommand": [
                 {
-                    "cmd01": "print(\"Azure 03\")"
+                    "cmd01": "print(\"Azure 13\")"
                 },
                 {
                     "cmd02": "print(\"azure\")"
