@@ -182,7 +182,7 @@ class ButtonTableApp:
 def main():
     # Set up argument parser
     parser = argparse.ArgumentParser(
-    description=r"Configurable Button Table Application e.g. python .\button_table_app.py -j .\button_table_app_config.json -a final ")
+    description=r"Configurable Button Table Application e.g. python .\button_table_app.py -j .\button_table_app_config.json.")
 
     parser.add_argument(
         "-j", "-json",
