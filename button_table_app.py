@@ -81,6 +81,9 @@ from tkinter import ttk
 import argparse
 import json
 import sys
+import subprocess
+import platform
+import os
 
 # Define exit codes
 EXIT_SUCCESS = 0
@@ -94,7 +97,7 @@ def print_path():
     As an example, printing all the path(s) in the PATH
     environment variable.
     """
-    import os
+
 
     # Get the PATH environment variable
     path_variable = os.environ.get("PATH")
@@ -108,6 +111,15 @@ def print_path():
 
 def print_error(msg):
     print(f"ERROR: {msg}\n")
+
+def start_powershell():
+    if platform.system() == "Windows":
+        # Define the PowerShell command to open a new window
+        command = "start powershell.exe"
+        # Execute the command
+        subprocess.run(command, shell=True)
+    else:
+        print("Starting a powershell only run on Windows OS.")
 
 class ButtonTableApp:
     """

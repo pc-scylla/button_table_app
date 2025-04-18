@@ -14,13 +14,16 @@
             "buttonColour": "indian red"
         },
         {
-            "buttonName": "Blue 02",
+            "buttonName": "Powershell",
             "buttonCommand": [
                 {
-                    "cmd01": "print(\"Blue 02\")"
+                    "cmd01": "start_powershell()"                   
                 },
                 {
-                    "cmd02": "print(\"blue\")"
+                    "cmd02": "print(\"Blue 02\")"
+                },
+                {
+                    "cmd03": "print(\"blue\")"
                 }
             ],
             "buttonColour": "blue"
