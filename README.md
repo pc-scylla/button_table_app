@@ -1,31 +1,48 @@
 # Button Table Application
 
-## Description
-A small application with configurable buttons designed to automate various tasks. Each button is linked to a customizable list of commands that can be executed. The number of buttons and associated commands are fully configurable via a `.json` configuration file.
+## Overview
+
+The **Button Table Application** is a lightweight Python-based tool that enables users to define customizable buttons for automating various tasks. Each button triggers a list of user-defined commands, all configured through a simple `.json` file.
+
 
 ## Features
-- Configurable buttons to automate tasks.
-- Customizable commands for each button.
-- Flexible `.json` configuration file for managing buttons, commands, and more.
+🔘 **Configurable Buttons:** Define an arbitrary number of buttons, each with its own label, color, and associated commands.
 
-## How to Run
+⚙️ **Custom Commands:** Associate one or more shell or Python commands with each button.
+
+📁 **JSON-Based Configuration:** Modify button behavior and layout via a structured JSON file.
+
+🖥️ **Cross-Platform (Where Compatible):** Designed for Python environments on Windows and Unix-like systems.
+
+---
+## Installation Requirements
+* Python 3.x
+* Required libraries listed in  `requirements.txt`
+
+To install dependdencies
+```
+pip install -r requirements.txt
+```
+
+## Running the application
 
 ### Run with Default Configuration
-```bash
-python .\button_table_app.py
+```
+python button_table_app.py
 ```
 
-### Run with Custom `.json` Configuration
+### Using a Custom Configuration
 ```bash
-python .\button_table_app.py -j my_configuration.json
+python button_table_app.py -j my_configuration.json
 ```
 
-## How to Configure
 
-1. Open the `button_table_app_config.json` file.
-2. Modify the `buttonTable` section to add or edit buttons and their commands.
+## Configuration Guide
 
-### Example Configuration
+### Editing the JSON Configuration
+The default configuration file is named `button_table_app_config.json`. Update the `buttonTable` array to define new buttons or commands.
+
+### Sample Configuration
 ```json
 "buttonTable": [
     {
@@ -58,7 +75,7 @@ python .\button_table_app.py -j my_configuration.json
 ]
 ```
 
-### Advanced Automation
+## Using Custom Python Functions
 For more complex tasks, user-defined functions can be integrated into the configuration script. Example:
 ```python
 def print_path():
@@ -67,18 +84,43 @@ def print_path():
     print(os.environ["PATH"])
 ```
 
-Add this function to the `buttonCommand` section as:
+**Corresponding JSON Entry**
+
 ```json
 { 
     "cmd01": "print_path()" 
 }
 ```
 
-## Requirements
-- Python 3.x
-- Dependencies listed in `requirements.txt`
 
 ---
+## Graphical User Interface (GUI)
+To launch the application using the default configuration:
+```
+python button_table_app.py
+```
+The following screen shows the application appearance.
+
+![App Screenshot](images/app-gui-ex01.png)
+
+The top right button named **`Powershell`** button will start a powershell on Windows.  The button named **`Print PATH variable`** will print all the **PATH** included in the **PATH** environment variable.
+Each button prints its own colour. 
+See screenshoot below
+
+![App Screenshot](images/app-gui-ex02.png)
+
+The following shows an additional powershell started from the **`Powershell`** button (see **1.**).
+* **2.** some print from the started python function
+* **3.** the started powershell
+
+![App Screenshot](images/app-gui-ex03.png)
+
+## License
+
+This project is distributed under the terms of the MIT License. Refer to the `LICENSE` file for details.
+
+---
+
 
 *This README.md was generated with assistance from [Microsoft Copilot](https://www.microsoft.com/en-us/edge/microsoft-copilot).*  
 
